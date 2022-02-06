@@ -1,3 +1,22 @@
+I changed the background color and font color in <body>
+   
+after I npm install, public is produced, and if I want to make any modification, I could direct modify index.html and style.css under ./public
+
+I use pm2 start pm2-luck-draw.json to run the service
+  ```
+   # pm2-luck-draw.json
+{
+    "apps": [
+        {
+            "name": "lucky-draw",
+            "cwd": "./lucky-draw/App"
+            "script": "npm",
+            "args" : "start"
+        }
+    ]
+}
+  ```
+
 Lucky Draw
 ==========
 
